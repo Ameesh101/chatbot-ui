@@ -31,6 +31,7 @@ module.exports = async (req, res) => {
                 messages: [{ role: 'user', content: message }],
             }),
         });
+        
 
         const data = await response.json();
 
