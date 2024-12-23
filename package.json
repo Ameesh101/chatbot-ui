@@ -1,0 +1,12 @@
+{
+    "name": "chatgpt-vercel-app",
+    "version": "1.0.0",
+    "description": "A ChatGPT interface hosted on Vercel",
+    "main": "index.js",
+    "scripts": {
+        "start": "vercel dev"
+    },
+    "dependencies": {
+        "node-fetch": "^2.7.0"
+    }
+}
