@@ -47,6 +47,7 @@ sendButton.addEventListener('click', async () => {
     chatOutput.appendChild(botMessageElement);
 
     // Scroll to the bottom
+    //Ameesh
     chatOutput.scrollTop = chatOutput.scrollHeight;
 });
 
